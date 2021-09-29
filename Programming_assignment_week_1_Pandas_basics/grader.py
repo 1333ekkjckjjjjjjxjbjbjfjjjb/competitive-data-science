@@ -44,8 +44,8 @@ class Grader(object):
     def submit(self, email, token):
         submission = {
                     "assignmentKey": self.assignment_key, 
-                    "submitterEmail": email, 
-                    "secret": token, 
+                    "shubham20aeccse@gmail.com": email, 
+                    "ycNcmSykxB3uOVzJ": token, 
                     "parts": {}
                   }
         for part, output in self.answers.items():
